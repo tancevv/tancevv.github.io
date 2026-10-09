@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-gold: #F5B800;
+    --brand-gold-hover: #E0A400;
+    --brand-dark: #111215;
+    --brand-surface: #191B20;
+    --brand-surface-elevated: #22252C;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #111215;
+    color: #F3F4F6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+.font-script {
+  font-family: 'Caveat', cursive, sans-serif;
+}
+
+.font-display {
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+}
+
+/* Subtle architectural wood-slat texture reminiscent of the photo */
+.bg-wood-slats {
+  background: repeating-linear-gradient(
+    90deg,
+    #161310 0px,
+    #161310 16px,
+    #2c2016 17px,
+    #3d2c1f 19px,
+    #120f0c 20px,
+    #120f0c 24px
+  );
+}
+
+/* Plaque stand-off gold bolt effect as in the original physical acrylic signboards */
+.plaque-screw {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 35% 35%, #ffffff 0%, #e6b21e 40%, #7d5c07 90%);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7), inset 0 0.5px 1px rgba(255, 255, 255, 0.9);
+}
+

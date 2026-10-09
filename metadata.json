@@ -1,0 +1,6 @@
+{
+  "name": "DA Construction - Од рушење до готов простор",
+  "description": "Професионално реновирање, рушење, фасади, глетување и молерисување во Скопје и околината. Вашиот дом, наша мисија!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
